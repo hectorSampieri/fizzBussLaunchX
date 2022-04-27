@@ -1,9 +1,8 @@
 const Reader = require('../../../lib/utils/Reader')
 
 describe("Pruebas de la clase Reader", () => {
-    test('1) Create a mission commander objet', () => {
+    test('1) Leer lista de explorers', () => {
         const explorers =Reader.readJsonFile('./data/explorers.json')
-        console.log(explorers.length)
         expect(explorers.length).toBe(15)
     })
     })
