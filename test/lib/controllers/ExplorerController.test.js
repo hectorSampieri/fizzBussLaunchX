@@ -1,4 +1,4 @@
-const ExplorerController = require("../../../lib/controllers/ExplorerController")
+const ExplorerController = require("../../../lib/controllers/ExplorerController");
 
 
 describe("Pruebas de la clase ExplorerService", () => {
